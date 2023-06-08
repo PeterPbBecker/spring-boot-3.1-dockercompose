@@ -1,2 +1,2 @@
 # spring-boot-3.1-dockercompose
-Examples for new Spring Boot 3.1 functionality
+Example for the new Docker Compoase functionality in Spring Boot 3.1
