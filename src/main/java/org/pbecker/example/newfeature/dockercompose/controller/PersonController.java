@@ -27,9 +27,4 @@ public class PersonController {
     public List<Person> findAll() {
         return personRepository.findAll();
     }
-
-    @GetMapping("/api/persons/{name}")
-    public Person findByName(@PathVariable("name") String name) {
-        return personRepository.findByName(name);
-    }
 }

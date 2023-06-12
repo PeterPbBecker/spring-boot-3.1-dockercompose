@@ -10,6 +10,4 @@ import org.pbecker.example.newfeature.dockercompose.domain.Person;
 import org.springframework.data.repository.ListCrudRepository;
 
 public interface PersonRepository extends ListCrudRepository<Person, Long> {
-
-    Person findByName(String name);
 }
